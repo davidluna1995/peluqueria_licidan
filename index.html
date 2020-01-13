@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NeoFox LP02</title>
     <!-- GOOGLE FONTS -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -24,34 +22,34 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="img/licidan.png" width="150px" height="50px">
-        </a>
+            <a class="navbar-brand" href="#">
+                <img src="img/licidan.png" width="150px" height="50px">
+            </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#quienes">Quienes Somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#precios">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ubicacion">Ubicacion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contacto</a>
-                </li>
-            </ul>
-        </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ubicacion">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -100,7 +98,7 @@
     <!-- QUIENES SOMOS -->
     <section id="quienes" class="my-5">
         <div class="container">
-            <h1 class="text-center" style="font-size: 3rem;"><br>
+            <h1 class="text-center quienesBorder" style="font-size: 3rem;"><br>
                 <b>
                     ¿Quiénes Somos?
                     <img src="img/barberia.png" width="50px" height="50px">
@@ -118,7 +116,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="text-center" style="font-size: 3rem;"><br><b>Nuestros Servicios</b>
+                    <h1 class="text-center tituloBorder" style="font-size: 3rem;"><br><b>Nuestros Servicios</b>
                         <img src="img/secador-de-pelo.png" width="50px" height="50px">
                     </h1>
                     <p>Una peluquería o barbería es un local donde se ofrecen varios servicios estéticos,
@@ -128,19 +126,28 @@
                 </div>
             </div>
 
-            <div class="card card-servicios card-deck mb-3 col-md-10 mx-auto">
+            <div class="card card-servicios card-deck mb-3 col-md-10 mx-auto" id="dama">
                 <div class="row no-gutters">
                     <div class="col-md-5 col-lg-5">
                         <img src="img/header3.png" class="card-img mx-auto m-4 servicioImg" width="50px" height="300px">
                     </div>
                     <div class="col-md-7 col-lg-7">
                         <div class="card-body">
-                            <h1 class="card-title text-center"><b>Dama</b></h1>
+                            <h1 class="card-title text-center quienesBorder">
+                                <b>
+                                    <img src="img/cabello-mujer.png" class="mx-auto" width="50px" height="50px">
+                                    Dama
+                                </b>
+                            </h1>
                             <ul class="list-group list-group-flush">
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Cortes Dama</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Balayage</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Ondulaciones Permanentes</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Mechas</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Cortes Dama</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Balayage</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Ondulaciones Permanentes</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Mechas</li>
                             </ul>
                         </div>
 
@@ -148,38 +155,58 @@
                 </div>
             </div>
 
-            <div class="card card-servicios mb-3 col-md-10 mx-auto">
+            <div class="card card-servicios mb-3 col-md-10 mx-auto" id="varon">
                 <div class="row no-gutters">
                     <div class="col-md-5 col-lg-5">
-                        <img src="img/galeria_03.png" class="card-img mx-auto m-4 servicioImg" width="50px" height="300px">
+                        <img src="img/galeria_03.png" class="card-img mx-auto m-4 servicioImg" width="50px"
+                            height="300px">
                     </div>
                     <div class="col-md-7 col-lg-7">
                         <div class="card-body">
-                            <h1 class="card-title text-center"><b>Varon</b></h1>
+                            <h1 class="card-title text-center quienesBorder">
+                                <b>Varon
+                                    <img src="img/cabello-masculino-de-formas-de-cabeza-y-cara.png" class="mx-auto"
+                                        width="50px" height="50px">
+                                </b>
+                            </h1>
                             <ul class="list-group list-group-flush">
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Cortes varon</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Degradado</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Tinturas</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Visos</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Cortes varon</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Degradado</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Tinturas</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Visos</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="card card-servicios mb-3 col-md-10 mx-auto">
+            <div class="card card-servicios mb-3 col-md-10 mx-auto" id="niño">
                 <div class="row no-gutters">
                     <div class="col-md-5 col-lg-5">
-                        <img src="img/galeria_04.png" class="card-img mx-auto m-4 servicioImg" width="50px" height="300px">
+                        <img src="img/galeria_04.png" class="card-img mx-auto m-4 servicioImg" width="50px"
+                            height="300px">
                     </div>
                     <div class="col-md-7 col-lg-7">
                         <div class="card-body">
-                            <h1 class="card-title text-center"><b>Niño</b></h1>
+                            <h1 class="card-title text-center quienesBorder">
+                                <b>
+                                    <img src="img/forma-de-pelo-de-nino.png" class="mx-auto" width="50px" height="50px">
+                                    Niño
+                                </b>
+                            </h1>
                             <ul class="list-group list-group-flush">
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Cortes niño</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Degradado</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Tinturas</li>
-                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px" height="30px">Visos</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Cortes niño</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Degradado</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Tinturas</li>
+                                <li class="mx-4 my-2"><img src="img/tijeras.png" class="mx-3 servicioImg" width="30px"
+                                        height="30px">Visos</li>
                             </ul>
                         </div>
                     </div>
@@ -190,15 +217,15 @@
     </section>
 
     <!-- ubicacion -->
-    <section id="ubicacion" class="my-5">
+    <section id="ubicacion">
         <div class="container text-center">
-            <h1><br><b>¿Donde Encontrarnos?</b>
+            <h1 class="quienesBorder"><br><b>¿Donde Encontrarnos?</b>
                 <img src="img/mapa.png" width="50px" height="50px">
             </h1>
             <p>Estamos ubicados en Los Carreras #467</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.2674025541096!2d-72.35061848416403!3d-37.47801572267973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966bdd4caebf2629%3A0xa25a3d7a366d47d2!2sAv.%20Los%20Carrera%20467%2C%20Los%20Angeles%2C%20Los%20%C3%81ngeles%2C%20B%C3%ADo%20B%C3%ADo!5e0!3m2!1ses!2scl!4v1578510913210!5m2!1ses!2scl"
-                width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="">
+                width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" id="mapa">
             </iframe>
 
         </div><br>
@@ -233,6 +260,30 @@
         </div>
     </section>
 
+    <!-- redes sociales -->
+    <section id="quienes" class="my-5">
+        <div class="container">
+            <h1 class="text-center quienesBorder" style="font-size: 3rem;"><br>
+                <b>
+                    Redes Sociales
+                </b>
+            </h1>
+            <p class="text-center">Visita nuestras redes sociales</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mt-4">
+                        <a href="https://www.facebook.com/licia.pacheco.98" target="_blank">
+                            <img class="mx-4" src="img/facebook.png" width="120px" height="120px"></a>
+                        <p>Peluqueria Licidan</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <a href="https://www.facebook.com/Academia-de-Peluquer%C3%ADa-LICIDAN-197924636960422/" target="_blank">
+                            <img class="mx-4" src="img/facebook.png" width="120px" height="120px"></a>
+                        <p>Academia Licidan</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
     <!-- BOOTSTRAP SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -253,6 +304,31 @@
         });
 
         sr.reveal('#quienes', {
+            duration: 2000,
+            origin: 'bottom',
+            distance: '300px'
+        });
+        sr.reveal('#dama', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px'
+        });
+        sr.reveal('#varon', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+        sr.reveal('#niño', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px'
+        });
+        sr.reveal('#ubicacion', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+        sr.reveal('#mapa', {
             duration: 2000,
             origin: 'bottom',
             distance: '300px'
