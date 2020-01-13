@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth
+}
+
+body{
+    /* font-family: 'Dancing Script'; */
+    font-size: 1.3rem;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Sniglet', cursive;
+    /* background: #ed6180; */
+    
+    
+}
+
+.navbar{
+    background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: 3px solid white;
+}
+
+.card-servicios{
+    border-color: #ad5389;  /* fallback for old browsers */
+    background: #FBD3E9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:white;
+}
+li{
+    list-style:none;
+}
+
+.margen{
+    margin-top: 6rem;
+}
+
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: #ad5389;;
+  }
+
+.carousel-item{
+    height: 100%;
+} 
+.carousel-item img{
+    height: 100%;
+}
+
+#testimonios{
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+.img-border{
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(https://www.w3schools.com/css/border.png) 30 round;
+}
+
+#info-two{
+    /* /* background: #f1f1f1; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contacto{
+    /* background: #f1f1f1; */
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    color:white;
+}
+
+#contact{
+    background: #f1f1f1;
+}
+#quienes{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+        
+}
+
+#ubicacion{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+
+
+}
+
+textarea{
+    resize: none;
+}
+
+.servicioImg{
+    opacity: 0.8;
+}
+
+.tituloBorder{
+    border-bottom: 2px solid #ad5389;
+}
